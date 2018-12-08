@@ -39,7 +39,7 @@ body { color:#000; background-color:#fff; min-height:1000px; }
     letter-spacing: -.003em;
 }
 
-.App div { border:3px solid #000; margin-bottom:20px;  } 
+.App div { border:3px solid #000; margin-top:20px;  } 
 
 /* end  page level styles */
 

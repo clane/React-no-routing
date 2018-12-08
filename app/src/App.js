@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import Component1 from "./Component1.js";
 import Component2 from "./Component2.js";
 import Component3 from "./Component3.js";
@@ -9,11 +9,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>React Components with No Routing</h1>
-			  <Component1/>
-			  <Component2/>
-			  <Component3/>
-			  <Component4/>
+        <h1>React APP without Routing</h1>
+        <p>
+          <a href="https://github.com/clane/React-no-routing">
+            https://github.com/clane/React-no-routing
+          </a>
+        </p>
+        <Component1 />
+        <Component2 />
+        <Component3 />
+        <Component4 />
       </div>
     );
   }
