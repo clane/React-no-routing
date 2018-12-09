@@ -9,16 +9,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>React APP without Routing</h1>
-        <p>
-          <a href="https://github.com/clane/React-no-routing">
-            https://github.com/clane/React-no-routing
-          </a>
-        </p>
-        <Component1 />
-        <Component2 />
-        <Component3 />
-        <Component4 />
+        <div role="banner" aria-label="main banner">
+          <h1>React Application without Routing</h1>
+          <p>
+            <a href="https://github.com/clane/React-no-routing">
+              https://github.com/clane/React-no-routing
+            </a>
+          </p>
+        </div>
+        <div role="main" aria-label="components go here">
+          <Component1 />
+          <Component2 />
+          <Component3 />
+          <Component4 />
+        </div>
       </div>
     );
   }
