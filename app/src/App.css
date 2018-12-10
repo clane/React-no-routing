@@ -48,7 +48,7 @@ body { color:#000; background-color:#fff; min-height:1000px; }
 h1 {  font-weight:700; font-size:3rem; margin:10px 0 10px 0; } 
 h2 {  font-weight:700; font-size:2rem; margin:10px 0 10px 0; } 
 
-.cat { width:500px; height:500px; } 
+.cat { width:350px; height:350px; } 
 
 /* begin routing link styles */
 ul[role="navigation"] { margin:10px 0px 10px 0px; padding:0;  } 
